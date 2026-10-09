@@ -1,0 +1,87 @@
+================================================================
+Boardbound Heroes - Press Kit (English)
+================================================================
+
+■ FACT SHEET
+
+Title           Boardbound Heroes
+Genre           Roguelike autobattler / Fantasy
+Developer       Calvis Studio (solo developer, Japan)
+Publisher       Calvis Studio (self-published)
+Platform        Windows (Steam)
+Players         Single player
+Languages       Japanese / English / Simplified Chinese / Korean (text only, no voice)
+Demo            October 15, 2026 - free
+Full release    2026 (price TBA)
+Event           Steam Next Fest, October 2026 (Oct 19-26, PDT)
+Steam page      https://store.steampowered.com/app/5015030/
+Engine          Godot 4.7
+Contact         boardboundheroes@gmail.com
+
+■ ONE LINE
+
+Hire heroes, place them on the board, and watch: a fantasy autobattler where how you arrange your party is the whole game.
+
+■ SHORT DESCRIPTION (about 50 words)
+
+A fantasy autobattler: hire heroes, set them on the board and watch them fight. Rows, range and elements decide battles on a shared 6x3 board, so the same party wins or loses depending on how you arrange it. Battles run up to 4x speed, with auto-looping for idle play.
+
+■ LONG DESCRIPTION
+
+Boardbound Heroes is a roguelike autobattler about a young survivor whose home was burned by the Demon King's army, gathering companions and descending into dungeons.
+
+You never act during a battle. You hire heroes at the tavern, equip them and place them on a 3x3 grid. That is all you do. The two 3x3 grids meet in the middle to form one shared 6x3 board, and units take turns in speed order, automatically. Because of that, everything you decide before the fight is the fight: which row a hero stands in, whether their range reaches the enemy back line, whether you can hit a weakness. The same six heroes can win or lose depending only on how they are arranged.
+
+Progression is built around not being able to take everything. Each class has a skill tree of three paths and three tiers, but the points you earn never cover half of its nodes. What you raise and what you give up turns two heroes of the same class into different characters.
+
+Every few floors you draw three cards from a ten-card support deck you built yourself, and keep one. How much healing to include, how much damage - you are choosing how to win while you build the deck, before the run begins.
+
+Battles run at up to 4x speed, and auto-loop keeps clearing and collecting rewards on its own, so you can leave it running to farm materials.
+
+■ KEY FEATURES
+
+- Place your party, then watch. Units fight automatically in speed order on a shared 6x3 board
+- Front, middle and back rows, attack range and seven elements decide the outcome
+- 14 classes (11 in the demo), with TFT-style trait synergies when you field matching heroes
+- A skill tree per class, where points never cover half the nodes, so you commit to paths
+- Floor rewards are drawn from a ten-card support deck you build, and cards upgrade through five levels
+- Gear comes from chests, the shop and the forge, where you craft it from materials you collect
+- Three difficulties, 4x battle speed and auto-looping for idle play
+
+■ WHAT IS IN THE DEMO (free, October 15, 2026)
+
+The demo covers the beginning of the revenge story: three dungeons - Grassland, Forest and Cave - and 35 floors, guarded at the bottom by the Slime King, Elderwood and the Goblin Lord. Eleven classes are available to recruit, all three difficulties are playable, and skill trees are unlocked up to tier 2. The forge, the shop and support-deck upgrades all work as they do in the full game. The full game adds the Desert and the dungeons beyond it, plus three more classes: Cavalier, Gunner and Strategist.
+
+Playtime: roughly 2-4 hours to see the demo through.
+
+■ ABOUT THE DEVELOPER
+
+Calvis Studio is a solo developer based in Japan. Boardbound Heroes started from the idea of combining the satisfaction of an autobattler - arrange your line-up, then watch it play out - with the looping and progression of a roguelike. Design, programming and data are the work of one person; the assets are made with generative AI tools and then selected and edited by hand (see below).
+
+■ GENERATIVE AI DISCLOSURE
+
+Many in-game assets were created during development with generative AI tools and then selected and edited by the developer: pixel art such as backgrounds, character animations, icons, effects and card illustrations (PixelLab), sound effects (ElevenLabs) and music (Tunee). AI assistance was also used to translate the game from Japanese into English, Simplified Chinese and Korean, and to write the store page text. The game does not generate any content with AI while it is running.
+
+■ TRAILER
+
+The trailer is on the Steam page in Japanese, English, Simplified Chinese and Korean (the version shown follows your Steam language).
+https://store.steampowered.com/app/5015030/
+MP4 files are available on request.
+
+■ ASSET USE
+
+The images and video in this press kit may be used freely in articles, videos and streams, including edited forms. Please credit "Calvis Studio".
+
+- images/screenshots_en ... English screenshots (1920x1080, 7 files)
+- images/screenshots_ja ... Japanese screenshots (1920x1080, 7 files)
+- images/key_art ... key art and header images
+- images/logo ... logo and icons
+
+■ EARLY ACCESS TO THE DEMO
+
+The demo is free for everyone on Steam from October 15. If you would like to play before then, we can send you a standalone build (Windows, zip) that runs without Steam. Just ask at the address below.
+
+■ CONTACT
+
+Calvis Studio
+boardboundheroes@gmail.com

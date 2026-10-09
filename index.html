@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boardbound Heroes - Press Kit</title>
+<style>
+  :root {
+    --ink: #1d2230; --sub: #5b6275; --line: #d3d8e4; --gold: #9a6b12;
+    --navy: #2b3a67; --bg: #f6f7fb; --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: "Yu Gothic UI", "Yu Gothic", "Meiryo", "Hiragino Sans", "Malgun Gothic",
+                 "Microsoft YaHei", system-ui, sans-serif;
+    font-size: 16px; line-height: 1.7;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px 72px; }
+  header.hero { background: var(--navy); color: #fff; padding: 0 0 28px; margin-bottom: 32px; }
+  header.hero .art { display: block; width: 100%; height: auto; }
+  header.hero .wrap { padding-top: 24px; padding-bottom: 0; }
+  h1 { font-size: 30px; margin: 0 0 6px; letter-spacing: .01em; }
+  .tagline { color: #cdd6ee; margin: 0 0 4px; font-size: 17px; }
+  .byline { color: #9fb0d8; margin: 0; font-size: 14px; }
+  h2 { font-size: 21px; margin: 40px 0 12px; padding-bottom: 6px; border-bottom: 2px solid var(--navy); }
+  h3 { font-size: 17px; margin: 22px 0 6px; }
+  p { margin: 0 0 12px; }
+  a { color: #1b5ea8; }
+  table.facts { width: 100%; border-collapse: collapse; background: var(--card); }
+  table.facts th, table.facts td { border: 1px solid var(--line); padding: 8px 12px; text-align: left; vertical-align: top; }
+  table.facts th { width: 210px; background: #eef1f8; font-weight: 600; white-space: nowrap; }
+  table.facts th small { display: block; color: var(--sub); font-weight: 400; font-size: 12px; }
+  .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 16px; }
+  .tabs button {
+    font: inherit; font-size: 15px; padding: 7px 16px; cursor: pointer;
+    background: var(--card); color: var(--navy); border: 1px solid var(--navy); border-radius: 999px;
+  }
+  .tabs button[aria-selected="true"] { background: var(--navy); color: #fff; }
+  .panel { display: none; background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 20px 24px; }
+  .panel.on { display: block; }
+  .panel ul { margin: 6px 0 14px; padding-left: 22px; }
+  .panel li { margin-bottom: 4px; }
+  .shots { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+  .shots a { display: block; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: #000; }
+  .shots img { display: block; width: 100%; height: auto; }
+  .shots figcaption { font-size: 13px; color: var(--sub); padding: 6px 2px 0; }
+  figure { margin: 0; }
+  .assets { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
+  .assets div { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; font-size: 14px; }
+  .assets b { display: block; font-size: 15px; margin-bottom: 2px; }
+  .note { background: #fff7e3; border: 1px solid #e0c172; border-radius: 8px; padding: 14px 18px; }
+  .contact { background: var(--card); border: 2px solid var(--navy); border-radius: 8px; padding: 18px 22px; font-size: 17px; }
+  .contact a { font-weight: 700; }
+  footer { color: var(--sub); font-size: 13px; margin-top: 40px; }
+  @media (max-width: 640px) { table.facts th { width: auto; } }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <img class="art" src="images/key_art/library_hero_3840x1240.png" alt="Boardbound Heroes key art">
+  <div class="wrap">
+    <h1>Boardbound Heroes</h1>
+    <p class="tagline">Hire heroes, place them on the board, and watch. / 仲間を雇って並べたら、あとは見守るだけ。</p>
+    <p class="byline">A roguelike autobattler by Calvis Studio &middot; Free demo October 15, 2026 &middot; Steam Next Fest October 2026</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <h2>Fact sheet / ファクトシート</h2>
+  <table class="facts">
+    <tr><th>Title <small>タイトル</small></th><td>Boardbound Heroes</td></tr>
+    <tr><th>Genre <small>ジャンル</small></th><td>Roguelike autobattler / fantasy &nbsp;&middot;&nbsp; ローグライク・オートバトラー</td></tr>
+    <tr><th>Developer <small>開発・販売</small></th><td>Calvis Studio (solo developer, Japan) &nbsp;&middot;&nbsp; 日本・個人開発</td></tr>
+    <tr><th>Platform <small>対応機種</small></th><td>Windows (Steam)</td></tr>
+    <tr><th>Players <small>プレイ人数</small></th><td>Single player &nbsp;&middot;&nbsp; 1人</td></tr>
+    <tr><th>Languages <small>対応言語</small></th><td>日本語 / English / 简体中文 / 한국어 &nbsp;<span style="color:#5b6275">(text only, no voice)</span></td></tr>
+    <tr><th>Demo <small>体験版</small></th><td><b>October 15, 2026 &middot; free</b> &nbsp;&middot;&nbsp; 2026年10月15日公開・無料</td></tr>
+    <tr><th>Full release <small>製品版</small></th><td>2026, price TBA &nbsp;&middot;&nbsp; 2026年予定・価格未定</td></tr>
+    <tr><th>Event <small>イベント</small></th><td>Steam Next Fest, October 19-26, 2026 (PDT)</td></tr>
+    <tr><th>Steam page <small>ストア</small></th><td><a href="https://store.steampowered.com/app/5015030/">store.steampowered.com/app/5015030/</a></td></tr>
+    <tr><th>Engine <small>エンジン</small></th><td>Godot 4.7</td></tr>
+    <tr><th>Contact <small>連絡先</small></th><td><a href="mailto:boardboundheroes@gmail.com">boardboundheroes@gmail.com</a></td></tr>
+  </table>
+
+  <h2>Trailer / 予告編</h2>
+  <p id="trailer">The trailer is on the Steam page, in Japanese, English, Simplified Chinese and Korean - the version shown follows your Steam language: <a href="https://store.steampowered.com/app/5015030/">https://store.steampowered.com/app/5015030/</a>. The MP4 files are available on request. / 予告編はSteamストアページで4言語とも公開しています。MP4ファイルが必要な場合はご連絡ください。</p>
+
+  <h2>About the game / ゲーム紹介</h2>
+  <div class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-lang="en">English</button>
+    <button role="tab" aria-selected="false" data-lang="ja">日本語</button>
+    <button role="tab" aria-selected="false" data-lang="zh">简体中文</button>
+    <button role="tab" aria-selected="false" data-lang="ko">한국어</button>
+  </div>
+
+  <section class="panel on" data-lang="en">
+    <h3>Short description</h3>
+    <p>A fantasy autobattler: hire heroes, set them on the board and watch them fight. Rows, range and elements decide battles on a shared 6x3 board, so the same party wins or loses depending on how you arrange it. Battles run up to 4x speed, with auto-looping for idle play.</p>
+    <h3>Long description</h3>
+    <p>Boardbound Heroes is a roguelike autobattler about a young survivor whose home was burned by the Demon King's army, gathering companions and descending into dungeons.</p>
+    <p>You never act during a battle. You hire heroes at the tavern, equip them and place them on a 3x3 grid. That is all you do. The two 3x3 grids meet in the middle to form one shared 6x3 board, and units take turns in speed order, automatically. Because of that, everything you decide before the fight is the fight: which row a hero stands in, whether their range reaches the enemy back line, whether you can hit a weakness. The same six heroes can win or lose depending only on how they are arranged.</p>
+    <p>Progression is built around not being able to take everything. Each class has a skill tree of three paths and three tiers, but the points you earn never cover half of its nodes. What you raise and what you give up turns two heroes of the same class into different characters.</p>
+    <p>Every few floors you draw three cards from a ten-card support deck you built yourself, and keep one. How much healing to include, how much damage - you are choosing how to win while you build the deck, before the run begins.</p>
+    <h3>Key features</h3>
+    <ul>
+      <li>Place your party, then watch. Units fight automatically in speed order on a shared 6x3 board</li>
+      <li>Front, middle and back rows, attack range and seven elements decide the outcome</li>
+      <li>14 classes (11 in the demo), with TFT-style trait synergies when you field matching heroes</li>
+      <li>A skill tree per class, where points never cover half the nodes, so you commit to paths</li>
+      <li>Floor rewards are drawn from a ten-card support deck you build; cards upgrade through five levels</li>
+      <li>Gear from chests, the shop and the forge, crafted from materials you collect</li>
+      <li>Three difficulties, 4x battle speed and auto-looping for idle play</li>
+    </ul>
+    <h3>What is in the demo</h3>
+    <p>Three dungeons - Grassland, Forest and Cave - and 35 floors, guarded at the bottom by the Slime King, Elderwood and the Goblin Lord. Eleven classes, all three difficulties, and skill trees unlocked up to tier 2. The forge, the shop and support-deck upgrades all work as they do in the full game. The full game adds the Desert and the dungeons beyond it, plus three more classes: Cavalier, Gunner and Strategist. Roughly 2-4 hours.</p>
+  </section>
+
+  <section class="panel" data-lang="ja">
+    <h3>短い紹介</h3>
+    <p>仲間を雇って盤上に並べたら、あとは戦いを見守るだけ。敵味方が6列×3段の盤で自動で戦うファンタジー・オートバトラーです。前衛・中衛・後衛の並び、射程、属性の相性で、同じ仲間でも勝敗は大きく変わります。戦闘は最大4倍速、自動周回による放置プレイにも対応しています。</p>
+    <h3>詳しい紹介</h3>
+    <p>魔王の軍勢に故郷を焼かれた若者が、仲間を集めてダンジョンへ挑む、ローグライク・オートバトラーです。</p>
+    <p>プレイヤーが戦闘中に操作することはありません。酒場で仲間を雇い、装備を与え、3×3のマスに並べる。やることはそれだけで、あとは敵味方が6列×3段の連結した盤の上で速度順に自動で戦います。だからこそ、戦う前の準備がそのまま結果になります。前衛・中衛・後衛のどこに置くか、各ユニットの射程が敵の後衛まで届くか、相手の弱点属性を突けるか。同じ仲間でも並べ方ひとつで勝敗がひっくり返ります。</p>
+    <p>育成では「全部は取れない」ことを徹底しています。職業ごとのスキルツリーは3路線×3段ありますが、手に入るポイントは全ノードの半分にも届きません。何を伸ばして何を諦めるかで、同じ職業でも別人に育ちます。</p>
+    <p>階層をいくつか進むごとに、自分で編成した10枚のサポートデッキから3枚が引かれ、1枚を選びます。回復を何枚入れるか、火力を取るか、デッキを組む段階から勝ち方を決めていくことになります。</p>
+    <h3>特徴</h3>
+    <ul>
+      <li>置いたら見守るだけの自動戦闘。6列×3段の連結した盤で、速度順にターンが回ります</li>
+      <li>前衛・中衛・後衛の並び、射程、7属性の相性が勝敗を決めます</li>
+      <li>14職業(体験版では11職業)。同じ特性の仲間を揃えるとTFT風のシナジーが発動します</li>
+      <li>職業ごとのスキルツリー。ポイントは全ノードの半分も取れないので、路線を選ぶことになります</li>
+      <li>階層報酬は自分で組んだ10枚のサポートデッキから抽選。カードは5段階まで強化できます</li>
+      <li>装備は宝箱・売店・鍛冶で。集めた素材から自分で打つこともできます</li>
+      <li>難易度3段階、最大4倍速と自動周回で放置プレイにも対応</li>
+    </ul>
+    <h3>体験版の内容</h3>
+    <p>草原・森林・洞窟の3ダンジョン、全35階層。それぞれの最深部ではスライムキング、エルダーウッド、ゴブリンロードが待ち構えます。仲間にできる職業は11種、難易度は3段階、スキルツリーは2段目まで解放。鍛冶や売店、サポートデッキの強化も製品版と同じように遊べます。製品版では砂漠から先のダンジョンと、キャバリエ・ガンナー・軍師の3職業が加わります。プレイ時間の目安は2〜4時間です。</p>
+  </section>
+
+  <section class="panel" data-lang="zh">
+    <h3>简介</h3>
+    <p>雇用伙伴、在棋盘上布阵，接下来只需观看战斗。这是一款敌我双方在6列×3行的棋盘上自动交战的奇幻自动战斗游戏。前排、中排、后排的站位，射程与属性克制，都会让同一支队伍的胜负截然不同。战斗最高可4倍速进行，并支持自动循环，挂机游玩也很轻松。</p>
+    <h3>详细介绍</h3>
+    <p>《Boardbound Heroes》是一款 Roguelike 自动战斗游戏。故乡被魔王大军焚毁的年轻人集结同伴，向地下城发起挑战。</p>
+    <p>战斗中玩家不进行任何操作。在酒馆雇用伙伴、为他们装备武具、在3×3的格子上布阵——你要做的只有这些，之后敌我双方便会在中央相连的6列×3行棋盘上，按速度顺序自动交战。正因如此，战斗前的准备会原封不动地变成结果: 放在前排、中排还是后排，射程能否够到敌方后排，能否打中弱点属性。</p>
+    <p>在养成上，本作彻底贯彻了"无法全部获得"。每个职业的技能树有3条路线×3层，但技能点连全部节点的一半都不到。每前进若干层，游戏还会从你亲手编成的10张支援卡组中抽出3张，由你选择1张。</p>
+    <h3>特色</h3>
+    <ul>
+      <li>布阵之后只需观看的自动战斗，按速度顺序轮流行动</li>
+      <li>站位、射程与7种属性克制决定胜负</li>
+      <li>14种职业(试玩版11种)，相同特性可触发羁绊加成</li>
+      <li>技能点连一半节点都取不到的技能树，必须选择路线</li>
+      <li>楼层奖励从自组的10张支援卡组抽取，卡牌可强化至5级</li>
+      <li>装备来自宝箱、商店与锻造，也能用素材亲手打造</li>
+      <li>3档难度，最高4倍速与自动循环，支持挂机</li>
+    </ul>
+    <h3>试玩版内容</h3>
+    <p>可挑战草原、森林、洞窟三座地下城，共35层，史莱姆之王、长老树与哥布林领主分别在各自的最深处等候。可招募职业11种，难度3档，技能树开放至第2层。正式版将加入沙漠及之后的地下城，以及骑将、枪手、军师3种新职业。游玩时长约2〜4小时。</p>
+  </section>
+
+  <section class="panel" data-lang="ko">
+    <h3>짧은 소개</h3>
+    <p>동료를 고용해 판 위에 배치하면, 그다음은 전투를 지켜보기만 하면 됩니다. 아군과 적군이 6열×3단의 판에서 자동으로 싸우는 판타지 오토배틀러입니다. 전위·중위·후위 배치와 사거리, 속성 상성에 따라 같은 동료로도 승패가 크게 달라집니다. 전투는 최대 4배속, 자동 반복으로 방치 플레이도 가능합니다.</p>
+    <h3>자세한 소개</h3>
+    <p>《Boardbound Heroes》는 마왕의 군세에 고향을 잃은 젊은이가 동료를 모아 던전에 도전하는 로그라이크 오토배틀러입니다.</p>
+    <p>전투 중 플레이어가 조작하는 것은 없습니다. 선술집에서 동료를 고용하고, 장비를 주고, 3×3 칸에 배치한다. 하는 일은 그것뿐이고, 이후에는 6열×3단의 판 위에서 속도 순으로 자동으로 싸웁니다. 그렇기 때문에 전위·중위·후위 중 어디에 둘 것인가, 사거리가 적 후위까지 닿는가, 약점 속성을 찌를 수 있는가 하는 준비가 그대로 결과가 됩니다.</p>
+    <p>직업별 스킬 트리는 3개 노선 × 3단이지만, 포인트는 전체 노드의 절반에도 미치지 못합니다. 또한 몇 층마다 직접 편성한 10장의 서포트 덱에서 3장을 뽑아 1장을 고르게 됩니다.</p>
+    <h3>특징</h3>
+    <ul>
+      <li>배치하면 지켜보기만 하는 자동 전투. 속도 순으로 턴이 돌아갑니다</li>
+      <li>배치·사거리·7가지 속성 상성이 승패를 결정합니다</li>
+      <li>14개 직업(체험판 11개)과 TFT 풍 특성 시너지</li>
+      <li>절반도 찍을 수 없는 스킬 트리, 노선 선택이 필요합니다</li>
+      <li>직접 짠 10장의 서포트 덱에서 층 보상을 추첨, 카드는 5단계 강화</li>
+      <li>보물상자·상점·대장간의 장비, 재료로 직접 제작도 가능</li>
+      <li>난이도 3단계, 최대 4배속과 자동 반복으로 방치 플레이 지원</li>
+    </ul>
+    <h3>체험판 내용</h3>
+    <p>초원·숲·동굴 3개 던전, 총 35층. 각 던전 최심부에는 슬라임 킹, 엘더우드, 고블린 로드가 기다립니다. 직업 11종, 난이도 3단계, 스킬 트리는 2단계까지. 정식판에서는 사막 이후의 던전과 카발리에·거너·군사 3개 직업이 추가됩니다. 플레이 타임은 약 2〜4시간입니다.</p>
+  </section>
+
+  <h2>Screenshots / スクリーンショット</h2>
+  <p>1920x1080 PNG. English versions below; Japanese versions are in <code>images/screenshots_ja</code>.</p>
+  <div class="shots">
+    <figure><a href="images/screenshots_en/01_boss_goblin_lord.png"><img src="images/screenshots_en/01_boss_goblin_lord.png" alt="Goblin Lord boss fight"></a><figcaption>Goblin Lord, the boss at the bottom of the Cave</figcaption></figure>
+    <figure><a href="images/screenshots_en/02_cave_battle.png"><img src="images/screenshots_en/02_cave_battle.png" alt="Cave battle"></a><figcaption>A battle in the Cave, on the shared 6x3 board</figcaption></figure>
+    <figure><a href="images/screenshots_en/03_forest_battle.png"><img src="images/screenshots_en/03_forest_battle.png" alt="Forest battle"></a><figcaption>Forest. Range decides who can reach the back line</figcaption></figure>
+    <figure><a href="images/screenshots_en/04_grassland_battle.png"><img src="images/screenshots_en/04_grassland_battle.png" alt="Grassland battle"></a><figcaption>Grassland, the first dungeon</figcaption></figure>
+    <figure><a href="images/screenshots_en/05_reward_choice.png"><img src="images/screenshots_en/05_reward_choice.png" alt="Reward card choice"></a><figcaption>Three cards drawn from your own support deck</figcaption></figure>
+    <figure><a href="images/screenshots_en/06_formation_traits.png"><img src="images/screenshots_en/06_formation_traits.png" alt="Formation and traits"></a><figcaption>Formation: rows, equipment and trait synergies</figcaption></figure>
+    <figure><a href="images/screenshots_en/07_skill_tree.png"><img src="images/screenshots_en/07_skill_tree.png" alt="Skill tree"></a><figcaption>A class skill tree - you cannot take every node</figcaption></figure>
+  </div>
+
+  <h2>Assets / 素材</h2>
+  <p style="margin-bottom:16px">
+    <a href="boardbound_heroes_press_kit.zip"
+       style="display:inline-block;background:#2b3a67;color:#fff;text-decoration:none;font-weight:700;
+              padding:11px 22px;border-radius:7px">&#11015; Download everything (ZIP, 22MB)</a>
+    <span style="color:#5b6275;font-size:14px;margin-left:10px">screenshots, key art, logos and the text in 4 languages / 全素材と4言語のテキスト</span>
+  </p>
+  <div class="assets">
+    <div><b>images/screenshots_en</b>English screenshots, 1920x1080, 7 files</div>
+    <div><b>images/screenshots_ja</b>Japanese screenshots, 1920x1080, 7 files</div>
+    <div><b>images/key_art</b>Key art, header and vertical capsule art</div>
+    <div><b>images/logo</b>Logo and icons (transparent PNG)</div>
+    <div><b>text/</b>Fact sheet and descriptions in 4 languages (plain text)</div>
+  </div>
+  <p style="margin-top:14px">These images and the trailer may be used freely in articles, videos and streams, including edited forms. Please credit <b>Calvis Studio</b>. &nbsp;/&nbsp; 記事・動画・配信での使用は自由です。クレジットは「Calvis Studio」。</p>
+
+  <h2>Early access to the demo / 先行プレイ</h2>
+  <div class="note">
+    <p style="margin:0 0 8px">The demo is free for everyone on Steam from October 15. If you would like to play before then, ask and we will send a standalone Windows build (zip) that runs without Steam.</p>
+    <p style="margin:0">体験版は10月15日からSteamで無料公開されます。それより前に遊びたい場合は、Steam不要で起動できる先行版(Windows・zip)をお送りします。</p>
+  </div>
+
+  <h2>Generative AI disclosure / 生成AIの使用について</h2>
+  <p>Many in-game assets were created during development with generative AI tools and then selected and edited by the developer: pixel art such as backgrounds, character animations, icons, effects and card illustrations (PixelLab), sound effects (ElevenLabs) and music (Tunee). AI assistance was also used to translate the game from Japanese into English, Simplified Chinese and Korean, and to write the store page text. The game does not generate any content with AI while it is running.</p>
+  <p>本作のゲーム内アセットの多くは、開発中に生成AIツールで作成し、開発者が選別・編集したものです。対象は、背景・キャラクターのアニメーション・アイコン・エフェクト・カード画像などのピクセルアート(PixelLab)、効果音(ElevenLabs)、BGM(Tunee)です。日本語から英語・簡体字中国語・韓国語への翻訳と、ストアページの文章にもAIの支援を使っています。ゲームの実行中にAIでコンテンツを生成することはありません。</p>
+
+  <h2>Contact / 連絡先</h2>
+  <div class="contact">
+    <b>Calvis Studio</b><br>
+    <a href="mailto:boardboundheroes@gmail.com">boardboundheroes@gmail.com</a><br>
+    <span style="font-size:15px;color:#5b6275">Questions, interview requests and build keys - in Japanese or English. 日本語・英語どちらでも対応します。</span>
+  </div>
+
+  <footer>Boardbound Heroes press kit &middot; Calvis Studio &middot; Last updated October 9, 2026</footer>
+</div>
+
+<script>
+  // 言語タブの切り替え
+  var tabs = document.querySelectorAll('.tabs button');
+  var panels = document.querySelectorAll('.panel');
+  tabs.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      tabs.forEach(function (b) { b.setAttribute('aria-selected', b === btn ? 'true' : 'false'); });
+      panels.forEach(function (p) { p.classList.toggle('on', p.dataset.lang === btn.dataset.lang); });
+    });
+  });
+</script>
+</body>
+</html>
