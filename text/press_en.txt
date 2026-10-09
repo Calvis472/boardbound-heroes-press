@@ -11,7 +11,7 @@ Publisher       Calvis Studio (self-published)
 Platform        Windows (Steam)
 Players         Single player
 Languages       Japanese / English / Simplified Chinese / Korean (text only, no voice)
-Demo            October 15, 2026 - free
+Demo            October 19, 2026 - free
 Full release    2026 (price TBA)
 Event           Steam Next Fest, October 2026 (Oct 19-26, PDT)
 Steam page      https://store.steampowered.com/app/5015030/
@@ -48,7 +48,7 @@ Battles run at up to 4x speed, and auto-loop keeps clearing and collecting rewar
 - Gear comes from chests, the shop and the forge, where you craft it from materials you collect
 - Three difficulties, 4x battle speed and auto-looping for idle play
 
-■ WHAT IS IN THE DEMO (free, October 15, 2026)
+■ WHAT IS IN THE DEMO (free, October 19, 2026)
 
 The demo covers the beginning of the revenge story: three dungeons - Grassland, Forest and Cave - and 35 floors, guarded at the bottom by the Slime King, Elderwood and the Goblin Lord. Eleven classes are available to recruit, all three difficulties are playable, and skill trees are unlocked up to tier 2. The forge, the shop and support-deck upgrades all work as they do in the full game. The full game adds the Desert and the dungeons beyond it, plus three more classes: Cavalier, Gunner and Strategist.
 
@@ -79,7 +79,7 @@ The images and video in this press kit may be used freely in articles, videos an
 
 ■ EARLY ACCESS TO THE DEMO
 
-The demo is free for everyone on Steam from October 15. If you would like to play before then, we can send you a standalone build (Windows, zip) that runs without Steam. Just ask at the address below.
+The demo is free for everyone on Steam from October 19. If you would like to play before then, we can send you a standalone build (Windows, zip) that runs without Steam. Just ask at the address below.
 
 ■ CONTACT
 
